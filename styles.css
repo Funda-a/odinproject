@@ -46,6 +46,7 @@ ul{
 h1{
     font-size: 48px;
     font-weight: bold;
+    text-align: start;
 }
 
 img{
@@ -59,6 +60,7 @@ img{
 
 .text > p{
     margin-bottom: 10px;
+    text-align: start;
 }
 
 button{
