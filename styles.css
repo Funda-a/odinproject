@@ -45,6 +45,7 @@ ul{
 
 h1{
     font-size: 48px;
+    font-weight: bold;
 }
 
 img{
@@ -69,4 +70,45 @@ button{
     font-weight: bold;    
 }
 
+/*section information */
 
+.information{
+    background-color: #F9Faf8;
+    color: #1F2937;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.square{
+    border:2px solid blue;
+    width: 100px;
+    height:100px;
+    border-radius: 5px;
+    
+}
+.information{
+    text-align: center;
+    padding-top:30px ;
+    padding-bottom: 60px;
+}
+
+.text{
+    text-align: center;
+    font-weight: 300;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    gap:25px;
+    align-items: center;
+}
+
+.info{
+    max-width: 100px;
+}
