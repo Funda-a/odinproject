@@ -52,6 +52,7 @@ h1{
 img{
     max-width: 500px;
     height: 200px;
+    flex:1;
 }
 
 .text{
@@ -70,6 +71,8 @@ button{
     border:none;
     border-radius: 7px;
     font-weight: bold;    
+    justify-content: start;
+    align-self: nostretch;
 }
 
 /*section information */
@@ -77,12 +80,14 @@ button{
 .information{
     background-color: #F9Faf8;
     color: #1F2937;
+    text-align: center;
+    padding-top:30px ;
+    padding-bottom: 60px;
 }
 
 h2{
     font-size: 25px;
     font-weight: bold;
-    text-align: center;
     padding-bottom: 30px;
 }
 
@@ -93,14 +98,8 @@ h2{
     border-radius: 5px;
     
 }
-.information{
-    text-align: center;
-    padding-top:30px ;
-    padding-bottom: 60px;
-}
 
-.text{
-    text-align: center;
+.subtext{
     font-weight: 300;
 }
 
@@ -113,4 +112,37 @@ h2{
 
 .info{
     max-width: 100px;
+}
+
+/*section quote */
+
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 20px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.quotecontainer{
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote > cite{
+    /* justify-content: center; */
+    /* max-width: 450px; */
+    align-self: flex-end;
+}
+
+.quotecontainer > p{
+    display: flex;
+    align-self:self-end;
 }
